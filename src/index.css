@@ -254,12 +254,14 @@ ul {
 }
 /* ============= PROJECT CSS =============== */
 
+/*  App  ve if-isLoading */
 .jobs-center {
   width: 80vw;
   margin: 5rem auto;
   max-width: var(--max-width);
 }
 
+/* BtnContainer return icinde en ustteki button*/
 .btn-container {
   display: flex;
   flex-direction: row;
@@ -268,7 +270,7 @@ ul {
   flex-wrap: wrap;
   margin-bottom: 4rem;
 }
-
+/* BtnContainer icindeki button*/
 .job-btn {
   background: transparent;
   border-color: transparent;
@@ -280,6 +282,7 @@ ul {
   color: var(--primary-500);
   box-shadow: 0 2px var(--primary-500);
 }
+/* BtnContainer icindeki button*/
 .active-btn {
   color: var(--primary-500);
   box-shadow: 0 2px var(--primary-500);
@@ -300,6 +303,7 @@ ul {
   margin-bottom: 2rem;
 }
 
+/* Duties icindeki div*/
 .job-desc {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -307,7 +311,7 @@ ul {
   align-items: center;
   margin-bottom: 1.25rem;
 }
-
+/* Duties icindeki icon */
 .job-icon {
   color: var(--primary-500);
 }
